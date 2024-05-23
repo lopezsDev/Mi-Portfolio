@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { getRepositories } from "../utils/github";
+import { getRepositories } from "../utils/gitConnection";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
-const ProjectsSection = () => {
+const Projects = () => {
     const [tag, setTag] = useState("All");
     const [repositories, setRepositories] = useState([]);
     const ref = useRef(null);
@@ -84,5 +84,5 @@ const ProjectsSection = () => {
     );
 };
 
-export default ProjectsSection;
+export default Projects;
 

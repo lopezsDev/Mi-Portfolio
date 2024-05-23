@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Navbar = () => {
+const Header = () => {
     return (
         <nav className="fixed w-full border-b border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-8 py-2">
@@ -33,4 +33,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
