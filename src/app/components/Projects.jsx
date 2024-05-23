@@ -2,10 +2,8 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { getRepositories } from "../utils/github";
-
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
-
 import { motion, useInView } from "framer-motion";
 
 const ProjectsSection = () => {
@@ -17,11 +15,11 @@ const ProjectsSection = () => {
     useEffect(() => {
         const token = process.env.GITHUB_TOKEN;
         getRepositories(token)
-            .then((data) => {
+            .then(data => {
                 setRepositories(data);
             })
-            .catch((error) => {
-                console.error("Error al obtener los repositorios:", error);
+            .catch(error => {
+                console.error('Error al obtener los repositorios:', error);
             });
     }, []);
 
@@ -87,3 +85,4 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+
