@@ -1,11 +1,6 @@
 <!-- Title -->
 <h1 align="center">Mi Portfolio - Single Page Application</h1>
 
-<!-- Preview Image -->
-<p align="center">
-  <img src="assets/portfolio-preview.png" alt="Portfolio Preview">
-</p>
-
 <!-- Features -->
 <h3 align="center">Features</h3>
 
