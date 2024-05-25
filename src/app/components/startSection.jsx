@@ -6,6 +6,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const StartSection = () => {
+    const handleDownloadCV = () => {
+        const cvUrl = "/public/CV_Samir_Lopez.pdf";
+        const link = document.createElement("a");
+        link.href = cvUrl;
+        link.download = "CV_Samir_Lopez.pdf";
+        link.target = "_blank";
+        link.click();
+    };
+
     return (
         <section className="lg:py-16">
             <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -54,7 +63,8 @@ const StartSection = () => {
                             Hire Me
                         </Link>
                         <Link
-                            href="/"
+                            href="#"
+                            onClick={handleDownloadCV}
                             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-gray-500 to-gray-700 hover:bg-gray-900 text-white mt-3"
                         >
                             <span className="block bg-[#121212] hover:bg-gray-900 rounded-full px-5 py-2">
