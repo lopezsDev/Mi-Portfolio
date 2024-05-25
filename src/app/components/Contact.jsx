@@ -129,7 +129,7 @@ const Contact = () => {
                             name="message"
                             id="message"
                             className="bg-gray-900 border border-gray-700 placeholder-gray-400 text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                            placeholder="Let's talk about..."
+                            placeholder="Let&apos;s talk about..."
                             value={formData.message}
                             onChange={handleChange}
                         />
