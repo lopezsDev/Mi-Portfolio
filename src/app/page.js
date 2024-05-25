@@ -11,11 +11,17 @@ export default function Home() {
       <Header />
       <div className="container mt-24 mx-auto px-12 py-4">
         <StartSection />
+        <br></br>
         <hr></hr>
+        <br></br>
         <About />
+        <br></br>
         <hr></hr>
+        <br></br>
         <Projects />
+        <br></br>
         <hr></hr>
+        <br></br>
         <Contact />
       </div>
       <Footer />

@@ -37,7 +37,7 @@ const Projects = () => {
                 );
             })
             .catch((error) => {
-                console.error("Error al obtener los repositorios:", error);
+                console.error("Error getting repositories:", error);
             });
     }, []);
 

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";   
+import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -35,8 +35,16 @@ const startSection = () => {
                         />
                     </h1>
                     <p className="text-gray-200 text-base sm:text-lg mb-6 lg:text-xl">
-                        Soy un dearrollador con más de 15 años de expericiencia en el desarrollo
-                        de software con java, creando proyectos robustos y con arquitecturas escalables.
+                        I’m a seasoned developer with over 15 years of experience in software development,
+                        specializing in creating robust and scalable projects using Java. My expertise
+                        spans both backend and mobile application development, ensuring seamless integration
+                        and high performance across platforms. I have a proven track record of designing and
+                        implementing scalable architectures that can handle high traffic and complex data processing needs.
+                        <br />
+                        Whether you need a sophisticated backend system, a feature-rich mobile application,
+                        or a seamless integration of both, I bring a wealth of knowledge and experience to the table.
+                        Let's work together to transform your vision into a powerful, scalable, and efficient
+                        solution that meets your unique requirements.
                     </p>
                     <div>
                         <Link
