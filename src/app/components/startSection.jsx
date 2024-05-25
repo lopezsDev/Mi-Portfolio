@@ -1,11 +1,10 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const startSection = () => {
+const StartSection = () => {
     return (
         <section className="lg:py-16">
             <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -84,4 +83,4 @@ const startSection = () => {
     );
 };
 
-export default startSection;
+export default StartSection;
