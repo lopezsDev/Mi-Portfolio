@@ -1,4 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Title -->
+<h1 align="center">Mi Portfolio - Single Page Application</h1>
+
+<!-- Features -->
+<h3 align="center">Features</h3>
+
+<ul align="center">
+  <li>🚀 <strong>Dynamic Content:</strong> Display your projects, skills, and experiences dynamically, making it easy to update.</li>
+  <li>🎨 <strong>Customizable:</strong> Easily customize the content and styling to reflect your unique personality and achievements.</li>
+  <li>🔍 <strong>SEO-friendly:</strong> Optimized for search engines to ensure maximum visibility and discoverability.</li>
+  <li>📱 <strong>Responsive Design:</strong> Ensures a seamless experience across all devices and screen sizes.</li>
+</ul>
+
+<!-- Getting Started -->
+<h3 align="center">Getting Started</h3>
+
+<ol align="center">
+  <li><strong>Clone the Repository:</strong><br>
+   <code>git clone https://github.com/lopezsDev/Mi-Portfolio.git</code></li>
+  <li><strong>Install Dependencies:</strong><br>
+   <code>cd Mi-Portfolio<br>npm install</code></li>
+  <li><strong>Run the Development Server:</strong><br>
+   <code>npm run dev</code></li>
+  <li><strong>Open Your Browser:</strong><br>
+   Visit <code>http://localhost:3000</code> to view the application locally.</li>
+</ol>
+
+<!-- Contact -->
+<h3 align="center">Contact</h3>
+
+<p align="center">
+  📧 <strong>Email:</strong> lopezs.dev@gmail.com<br>
+  🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/samir-l%C3%B3pez-906437268/">Samir López</a>
+</p>
+
+<!-- Deployment -->
+<h3 align="center">Deployment</h3>
+
+<p align="center">🚀 The project is deployed and can be accessed <a href="https://miportafolio-xi.vercel.app/">here</a>.</p>
+
+<!-- Technologies Used -->
+<h3 align="center">Technologies Used</h3>
+
+<p align="center">
+  <strong>Frontend:</strong> Next.js<br>
+  <strong>Backend:</strong> Node.js<br>
+  <strong>Styling:</strong> CSS<br>
+  <strong>Languages:</strong> JavaScript, HTML
+</p>
+
+<!-- Contributions -->
+<h3 align="center">Contributions</h3>
+
+<p align="center">🙌 Contributions and feedback are welcome! Please submit a pull request or open an issue if you encounter any bugs or have suggestions for improvements.</p>
+
+---
+
+<p align="center">Made with ❤️ by Samir López</p>
+
 
 ## Getting Started
 
