@@ -15,10 +15,10 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">
-                        I'm a seasoned backend developer specializing in architecting
+                        I&apos;m a seasoned backend developer specializing in architecting
                         scalable solutions. With expertise in Java, Spring Boot, and
                         database design, I excel in building high-performance APIs and
-                        microservices. I'm committed to mentoring teams, staying abreast of
+                        microservices. I&apos;m committed to mentoring teams, staying abreast of
                         industry trends, and delivering reliable, maintainable code to drive
                         project success.
                     </p>
